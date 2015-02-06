@@ -20,7 +20,7 @@
               if (empty($_SESSION['user'])) { ?>
                 <li<?php if ($page == "login") {?> class="active"<?php } ?>><a href="login.php">Login</a></li>
               <?php } else { ?>
-                <li>Hello, <?php echo $_SESSION["user"]["name"] ?></li>
+                <li><a name="user">Hello, <?php echo $_SESSION["user"]["name"] ?></a></li>
                 <li><a href="logout.php">Logout</a></li>
               <?php } ?>
           </ul>
