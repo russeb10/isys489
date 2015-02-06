@@ -11,7 +11,7 @@
 
 	if (isset($_POST["username"]) && isset($_POST["password"]))
 	{
-		$_SESSION["user"] = [];
+		$_SESSION["user"] = array();
 		$_SESSION["user"]["name"] = $_POST["username"];
 		$_SESSION["notice"] = "Login Successful";
 		header('Location: index.php');
