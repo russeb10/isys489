@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="<?php echo $description; ?>">
     <meta name="author" content="<?php echo $author; ?>">
-    <link rel="icon" href="../images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico">
 
     <title><?php if (!empty($title)) echo $title; ?></title>
 
