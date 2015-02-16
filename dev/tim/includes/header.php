@@ -14,6 +14,7 @@
             <li<?php if ($page == "index") {?> class="active"<?php } ?>><a href="index.php">Home</a></li>
             <li<?php if ($page == "about") {?> class="active"<?php } ?>><a href="#about">About</a></li>
             <li<?php if ($page == "contact") {?> class="active"<?php } ?>><a href="#contact">Contact</a></li>
+            <li<?php if ($page == "pw") {?> class="active"<?php } ?>><a href="pw.php">Hash String</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <?php
